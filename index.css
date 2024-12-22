@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(0, 0%, 10%);
+
+
+}
+
+.Todolist{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    
+}
+h2{
+    font-size: 4rem;
+    color: aliceblue;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-btn{
+    background-color: hsl(114, 100%, 59%);
+}
+.add-btn:hover{
+    background-color: hsl(114, 100%, 39%);
+}
+.del-btn{
+    background-color: hsl(0, 100%, 50%);
+}
+.del-btn:hover{
+    background-color: hsl(0, 100%, 40%);
+}
+.up-btn{
+    background-color: hsl(240, 100%, 50%);
+}
+.up-btn:hover{
+    background-color: hsl(240, 100%, 40%);
+}
+.down-btn{
+    background-color: hsl(240, 100%, 50%);
+}
+.down-btn:hover{
+    background-color: hsl(240, 100%, 40%);
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 0%, 0.502);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.502);
+}
+ol{
+    padding: 0%;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    border: 3px solid black;
+    background-color: hsl(208, 100%, 97%);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.task{
+    flex: 1;
+}
+.up-btn, .down-btn{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
